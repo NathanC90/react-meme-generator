@@ -11,10 +11,11 @@ Besides Header, all the other styles are designed followed by the figma design [
 
 ### My thought process
 1. create all the components that are needed (In this case, only <Header /> and <Main /> are needed)
-2. set up <Header /> and style it accordingly
-3. set up <Main /> and style it with hard-coded data
+2. set up Header component and style it accordingly
+3. set up Main component and style it with hard-coded data
 4. Fetch 100 most popular memes from [imgflip](https://imgflip.com/api) and update the meme image
-5. Since there's no shared data, I keep all the states & functions in Main component
+   - To prevent from React keeps re-rendering, I use [] empty dependencies array <br> as the second parameter of the useEffect hook
+   - Since there's no shared data, I keep all the states & functions in Main component
 
 # Links
 
