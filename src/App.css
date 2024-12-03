@@ -12,6 +12,7 @@
   align-items: center;
   gap: 0.45rem;
   box-shadow: 0 1px 5px black;
+  width: 100%;
 }
 
 .logo {
@@ -27,6 +28,8 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
@@ -105,4 +108,37 @@
 
 .bottom {
   bottom: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .form,
+  .meme-image {
+    width: 360px;
+  }
+  
+  .top,
+  .bottom {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .form,
+  .get-image-button,
+  .meme-image {
+    width: 300px;
+  }
+
+  .get-image-button {
+    width: 3
+  }
+
+  .top,
+  .bottom {
+    font-size: 1.2rem;
+  }
 }
