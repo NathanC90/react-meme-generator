@@ -19,7 +19,7 @@ Besides Header, all the other styles are designed followed by the figma design [
 
 # Links
 
-- Live demo [@Netlify](https://shiny-sorbet-7ef2df.netlify.app/)
+- Live demo [@Netlify](https://glittering-cascaron-6ccad9.netlify.app/)
 - Github [Repository](https://github.com/NathanC90/react-meme-generator)
 
 ### Getting Started with Create React App
