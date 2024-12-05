@@ -1,7 +1,7 @@
 # Meme Generator - An interactive web app from [Scrimba](https://scrimba.com/home)
 
 This my solution to the project Meme Generator from [Scrimba](https://scrimba.com/home).
-Besides Header, all the other styles are designed followed by the figma design [here](https://www.figma.com/design/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0-1&node-type=canvas&t=bhy96hFJ5BQ4YoEC-0)
+Besides Header, all the other styles are followed by the figma design [here](https://www.figma.com/design/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0-1&node-type=canvas&t=bhy96hFJ5BQ4YoEC-0)
 
 ### Skills required
 - Controlled components
